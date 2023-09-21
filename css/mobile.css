@@ -1,0 +1,55 @@
+/* X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .del-address{
+        margin-bottom: 10px;
+    }
+    .del-icons{
+        margin-top: 20px;
+    }
+    .banner{
+        padding-left: 10px;
+    }
+    .banner .banner-text{
+        width: 70%;
+    }
+    .banner .banner-text .btn{
+        margin-top: 10px;
+        width: 60%;
+    }
+    .banner-details .banner-details-image img{
+        position: absolute;
+        width: 60%;
+        margin-top: -600px;
+        z-index: 1;
+        right: 0;
+    }
+    .banner-details .banner-details-items .banner-details-items-box{
+        margin: 0 15px 15px 15px;
+    }
+    #sponsor .col-lg-2{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .point-foot .point-foot-box{
+        border-bottom: 2px solid #a0a0a0;
+        border-right: 0;
+    }
+    .footer .copyright{
+        margin-top: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up)  */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)  */
+@media (min-width: 1400px) { ... }

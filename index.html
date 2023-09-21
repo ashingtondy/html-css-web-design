@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Design</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container-lg" >
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand logo" href="#">ProvisionHub</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="bi bi-three-dots-vertical"></i>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav ms-auto menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="search">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-3 del-address d-flex align-middle">
+                        <p class="my-auto">Delivery Address <i class="bi bi-geo-alt-fill"></i> <span>No 5 Ajimotokan Street</span></p>
+                    </div>
+                    <div class="col-lg-7 del-form">
+                        <form action="">
+                            <div class="input-group flex-nowrap">
+                                <input type="text" class="form-control" placeholder="Search for Products, Brand or Category" aria-label="Username" aria-describedby="addon-wrapping">
+                                <span class="input-group-text" id="addon-wrapping"><button class="btn"><i class="bi bi-search"></i></button></span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-2 del-icons d-flex justify-content-end align-items-center">
+                        <i class="bi bi-cart3"></i>
+                        <i class="bi bi-bell-fill"></i>
+                        <img src="images/profile.jpg" alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="banner">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="banner d-flex justify-content-start align-items-center">
+                        <div class="container">
+                            <div class="row banner-text">
+                                <p>All Quality Products</p>
+                                <h1>You order - we deliver, within <span>24 hours</span> </h1>
+                                <p>get your groceries deliver to you at your comfort</p>
+                                <button class="btn">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row banner-details">
+                    <div class="col-lg-7">
+                        <div class="row banner-details-items">
+                            <div class="col-lg-4 banner-details-items-b">
+                                <div class="banner-details-items-box box1 d-flex justify-content-start align-items-center">
+                                    <i class="bi bi-star-fill" style="color: #f1ce00;"></i> 4.9 (30k Reviews)
+                                </div>
+                            </div>
+                            <div class="col-lg-4 banner-details-items-b">
+                                <div class="banner-details-items-box box2 d-flex justify-content-start align-items-center">
+                                    <i class="bi bi-check-circle-fill" style="color: #35a802;"></i> Order Confirmed
+                                </div>
+                            </div>
+                            <div class="col-lg-4 banner-details-items-b">
+                                <div class="banner-details-items-box box3 d-flex justify-content-start align-items-center">
+                                    <i class="bi bi-clock-fill" style="color: #c40b08;"></i> Delivery in 20 mins
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 banner-details-image">
+                        <img src="images/delivery.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product" class="mt-4 mb-3">
+            <div class="container-lg">
+                <div class="row">
+                    <h1 class="mb-3">Products</h1>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end" style="background-image: url(images/product-1.jpg);">
+                            <div class="product-title">
+                                <h2>Photoraphy</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end"
+                            style="background-image: url(images/product-2.jpg);">
+                            <div class="product-title">
+                                <h2>Beauty</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end"
+                            style="background-image: url(images/product-3.jpg);">
+                            <div class="product-title">
+                                <h2>Food</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end"
+                            style="background-image: url(images/product-4.jpg);">
+                            <div class="product-title">
+                                <h2>Construction</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end"
+                            style="background-image: url(images/product-5.jpg);">
+                            <div class="product-title">
+                                <h2>Fashion</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="product-item mb-3 d-flex justify-content-center align-items-end"
+                            style="background-image: url(images/product-6.jpg);">
+                            <div class="product-title">
+                                <h2>Skin Care</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="category" class="mt-4 mb-3">
+            <div class="container-lg category-head">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h1 class="mb-3">Cateory</h1>
+                    </div>
+                    <div class="col-lg-10">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-1">
+                                    <select class="form-select">
+                                        <option selected>All</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" placeholder="Search for Products, Brand or Category">
+                                </div>
+                                <div class="col-lg-1">
+                                    <i class="bi bi-filter"></i>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container-lg mt-5">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-1.jpg);">
+                                <div class="item-discount">
+                                    20%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                blue coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-2.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                red coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-3.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                yellow coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-4.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                bath building block word
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-5.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                alarm clock bakelike pink
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-6.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                alarm clock bakelike red
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-7.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                panda and bunnies sticker sheet
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-8.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                inflatable political globe
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-1.jpg);">
+                                <div class="item-discount">
+                                    20%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                blue coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-2.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                red coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-3.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                yellow coat rack paris fashion
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-4.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                bath building block word
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-5.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                alarm clock bakelike pink
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-6.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                alarm clock bakelike red
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-7.jpg);">
+                                <div class="item-discount">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                panda and bunnies sticker sheet
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="shop-item">
+                            <div class="item-pix" style="background-image: url(images/item-8.jpg);">
+                                <div class="item-discount disable">
+                                    10%
+                                </div>
+                            </div>
+                            <div class="item-title mt-3">
+                                inflatable political globe
+                            </div>
+                            <div class="item-rating mt-4">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5 item-price d-flex justify-content-center align-items-center">
+                                    <p><span>&#x20A6;</span> 2,000</p>
+                                </div>
+                                <div class="col-7 addtocart">
+                                    <button class="btn">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6 pagination align-items-center">
+                        <ul class="pages">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>. . .</li>
+                            <li><i class="bi bi-chevron-right"></i></li>
+                            <li><i class="bi bi-chevron-double-right"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </section>
+        <section id="sponsor" class="mt-5 mb-4">
+            <div class="container-lg">
+                <h1>Partners</h1>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="images/cocacola.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="images/budweiser.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="images/cadbury.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="images/indomie.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="images/sprite.png" alt="">
+                    </div>
+                    <div class="col-lg-2">
+                        <img src="images/vaseline.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="point-foot mt-5">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="point-foot-box">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-2">
+                                    <i class="bi bi-truck"></i>
+                                </div>
+                                <div class="col-10 pt-2">
+                                    <h3>direct delivery</h3>
+                                    <p>Get goods delivered to you directly ater purchase</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="point-foot-box">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-2">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </div>
+                                <div class="col-10 pt-2">
+                                    <h3>reliable product</h3>
+                                    <p>we provide quality products for consumption</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="point-foot-box no-border">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-2">
+                                    <i class="bi bi-telephone-outbound-fill"></i>
+                                </div>
+                                <div class="col-10 pt-2">
+                                    <h3>24/7 call support</h3>
+                                    <p>We re available 24 hours to attend to you</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Be the first to know about new products</p>
+                        <form action="">
+                            <div class="input-group flex-nowrap mb-3">
+                                <input type="text" class="form-control" placeholder="Enter E-Mail" aria-label="Username"
+                                    aria-describedby="addon-wrapping">
+                                <span class="input-group-text" id="addon-wrapping"><button class="btn"><i class="bi bi-send-fill"></i></button></span>
+                            </div>
+                        </form>
+                        <p>Company | Privacy Policy | Terms & Condition</p>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <p>Follow us on Social Media</p>
+                        <ul class="footer-socials">
+                            <li><i class="bi bi-twitter-x"></i></li>
+                            <li><i class="bi bi-facebook"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                            <li><i class="bi bi-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row text-center copyright">
+                    <p>Copyright &copy; 2023 | Designed by @DayoAshiru</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
